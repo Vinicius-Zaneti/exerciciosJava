@@ -9,6 +9,6 @@ public class Atv05 {
         carros.add("chevette");
         carros.add("fusca");
 
-        carros.forEach(carros -> System.out.println(carros))
+        carros.forEach(carro -> System.out.println("O carro atual: " + carro));
     }
 }
